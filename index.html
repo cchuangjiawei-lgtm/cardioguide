@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>CardioGuide — ST4+ Training</title>
+  <meta name="description" content="Offline cardiology ST4+ training guide: curriculum, ESC/NICE guidelines, ECG mastery, ARCP checklists.">
+
+  <!-- PWA / installable app -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0e1e36">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="CardioGuide">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="icon" href="icons/icon-192.png">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <div class="logo">
+        <span class="logo-icon">♥</span>
+        <div>
+          <div class="logo-title">CardioGuide</div>
+          <div class="logo-sub">ST4+ Training</div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav-tree" id="navTree"></nav>
+
+    <div class="sidebar-footer">
+      <button class="chat-toggle-btn" id="chatToggle" onclick="toggleChat()">
+        <span class="chat-toggle-icon">💬</span>
+        <span>Ask Claude</span>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Mobile overlay -->
+  <div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+
+  <!-- Main content -->
+  <main class="main" id="main">
+    <div class="top-bar">
+      <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+      <div class="breadcrumb" id="breadcrumb">Overview</div>
+      <button class="chat-btn-top" onclick="toggleChat()">💬 Ask AI</button>
+    </div>
+    <div class="content-area" id="contentArea"></div>
+  </main>
+
+  <!-- Chat panel -->
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-header">
+      <div class="chat-header-info">
+        <span class="chat-status-dot"></span>
+        <span class="chat-title">Ask Claude</span>
+      </div>
+      <div class="chat-header-actions">
+        <button class="chat-clear-btn" onclick="clearChat()" title="Clear">↺</button>
+        <button class="chat-close-btn" onclick="toggleChat()">✕</button>
+      </div>
+    </div>
+    <div class="chat-context" id="chatContext">Context: Overview</div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-welcome">
+        <div class="chat-welcome-icon">♥</div>
+        <div class="chat-welcome-title">Ask Claude</div>
+        <div class="chat-welcome-text">Type a question below (or tap a suggested prompt). It'll be copied to your clipboard and Claude will open in a new tab, ready to paste — this needs internet, but everything else in CardioGuide works fully offline.</div>
+      </div>
+    </div>
+    <div class="quick-prompts" id="quickPrompts"></div>
+    <div class="chat-input-area">
+      <textarea class="chat-input" id="chatInput" placeholder="Ask a question..." rows="1" onkeydown="handleChatKey(event)" oninput="autoResize(this)"></textarea>
+      <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
