@@ -424,6 +424,52 @@ body.chat-open .main { margin-right: var(--chat-w); }
 }
 .gl-source-bar strong { color: var(--text-2); }
 
+/* ─── ON-CALL BOX (act-now summary at top of a guideline) ───────────────── */
+.oncall-box {
+  background: linear-gradient(135deg, #7f1d1d, #b91c1c);
+  color: #fff; border-radius: var(--radius);
+  padding: 1rem 1.25rem; margin: 1rem 0;
+}
+.oncall-box-title {
+  font-size: 0.6875rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.08em; opacity: 0.85; margin-bottom: 0.5rem;
+  display: flex; align-items: center; gap: 0.375rem;
+}
+.oncall-box p, .oncall-box li { color: #fff; font-size: 0.875rem; line-height: 1.6; }
+.oncall-box strong { color: #fff; font-weight: 700; }
+.oncall-box ul { margin: 0; padding-left: 1.125rem; }
+.oncall-box li::marker { color: rgba(255,255,255,0.6); }
+
+/* ─── DEEP DIVE (collapsible detail below the scannable summary) ─────────── */
+.deep-dive-header {
+  display: flex; align-items: center; gap: 0.625rem;
+  margin: 1.75rem 0 0.875rem;
+  font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--text-3);
+}
+.deep-dive-header::before,
+.deep-dive-header::after { content: ''; height: 1px; background: var(--border); }
+.deep-dive-header::before { width: 1.25rem; flex-shrink: 0; }
+.deep-dive-header::after { flex: 1; }
+
+.dd {
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: var(--radius); margin-bottom: 0.625rem;
+  overflow: hidden; box-shadow: var(--shadow);
+}
+.dd-head {
+  display: flex; align-items: center; gap: 0.625rem;
+  padding: 0.75rem 1rem; cursor: pointer; user-select: none;
+  transition: background 0.15s;
+}
+.dd-head:hover { background: #f8fafc; }
+.dd-title { flex: 1; font-size: 0.875rem; font-weight: 600; color: var(--text-2); }
+.dd-chevron { font-size: 0.6875rem; color: var(--text-4); transition: transform 0.2s; }
+.dd.open .dd-chevron { transform: rotate(180deg); }
+.dd-body { display: none; padding: 0 1rem 1rem; border-top: 1px solid var(--border); }
+.dd.open .dd-body { display: block; padding-top: 0.875rem; }
+.dd-body > *:first-child { margin-top: 0; }
+
 /* ─── UTIL ──────────────────────────────────────────────────────────────── */
 .mt-1 { margin-top: 0.5rem; } .mt-2 { margin-top: 1rem; } .mt-3 { margin-top: 1.5rem; }
 .mb-1 { margin-bottom: 0.5rem; } .mb-2 { margin-bottom: 1rem; }
