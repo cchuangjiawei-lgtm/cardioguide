@@ -457,17 +457,21 @@ body.chat-open .main { margin-right: var(--chat-w); }
   border-radius: var(--radius); margin-bottom: 0.625rem;
   overflow: hidden; box-shadow: var(--shadow);
 }
+/* <summary> needs its default disclosure marker removed in every engine */
 .dd-head {
   display: flex; align-items: center; gap: 0.625rem;
   padding: 0.75rem 1rem; cursor: pointer; user-select: none;
   transition: background 0.15s;
+  list-style: none;
 }
+.dd-head::-webkit-details-marker { display: none; }
+.dd-head::marker { content: ''; }
 .dd-head:hover { background: #f8fafc; }
+.dd-head:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
 .dd-title { flex: 1; font-size: 0.875rem; font-weight: 600; color: var(--text-2); }
 .dd-chevron { font-size: 0.6875rem; color: var(--text-4); transition: transform 0.2s; }
-.dd.open .dd-chevron { transform: rotate(180deg); }
-.dd-body { display: none; padding: 0 1rem 1rem; border-top: 1px solid var(--border); }
-.dd.open .dd-body { display: block; padding-top: 0.875rem; }
+.dd[open] .dd-chevron { transform: rotate(180deg); }
+.dd-body { padding: 0.875rem 1rem 1rem; border-top: 1px solid var(--border); }
 .dd-body > *:first-child { margin-top: 0; }
 
 /* ─── UTIL ──────────────────────────────────────────────────────────────── */

@@ -1,7 +1,7 @@
 // CardioGuide offline service worker
 // Bump CACHE_NAME any time you edit content.js / app.js / styles.css so
 // installed devices pick up the update next time they open the app online.
-const CACHE_NAME = 'cardioguide-v3';
+const CACHE_NAME = 'cardioguide-v4';
 const ASSETS = [
   './',
   './index.html',

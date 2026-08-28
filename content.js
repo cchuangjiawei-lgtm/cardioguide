@@ -914,7 +914,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">STEMI reperfusion &amp; fibrinolysis dosing</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">STEMI reperfusion &amp; fibrinolysis dosing</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <p>Primary PCI if deliverable <strong>within 120 min of STEMI diagnosis</strong>. If not → fibrinolysis within 10 min, then transfer for angiography at 2–24 h (pharmaco-invasive).</p>
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Agent</th><th>Dose</th></tr>
@@ -922,10 +922,10 @@ eportfolio: `
   <tr><td>Alteplase</td><td>15 mg bolus → 0.75 mg/kg over 30 min (max 50) → 0.5 mg/kg over 60 min (max 35). Total ≤100 mg</td></tr>
   <tr><td>Co-therapy</td><td>Aspirin 300 mg + clopidogrel 300 mg (150 if &gt;75) + enoxaparin 30 mg IV bolus then 1 mg/kg SC BD</td></tr>
 </table></div>
-<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>Failed fibrinolysis</strong> — &lt;50% ST resolution at 60–90 min, ongoing pain, or instability → <strong>rescue PCI</strong> (Class I).</div></div>
+<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>Failed fibrinolysis</strong> — &lt;50% ST resolution at 60–90 min, ongoing pain, or instability → <strong>rescue PCI</strong> (Class I).</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Complications to recognise on-call</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Complications to recognise on-call</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Complication</th><th>Recognition &amp; action</th></tr>
   <tr><td>Cardiogenic shock</td><td>SBP &lt;90 + hypoperfusion. Urgent PPCI — <strong>culprit lesion only</strong> (CULPRIT-SHOCK). Noradrenaline over dopamine. Discuss mechanical support early</td></tr>
@@ -937,9 +937,9 @@ eportfolio: `
   <tr><td>Stent thrombosis</td><td>Sudden re-presentation with ST elevation. Emergency cath lab. Check compliance</td></tr>
   <tr><td>Post-MI pericarditis / Dressler</td><td>Pleuritic pain 1–6 weeks post. Aspirin + colchicine — <strong>avoid other NSAIDs early</strong></td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Secondary prevention — start before discharge</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Secondary prevention — start before discharge</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>DAPT</strong> — aspirin 75 mg + P2Y12 for 12 months. Shorter (3–6 mo) if high bleeding risk; longer (to 36 mo, ticagrelor 60 mg BD) in selected high ischaemic risk. <strong>With AF:</strong> drop aspirin at ~7 days, continue DOAC + clopidogrel to 12 months.</li>
   <li><strong>Statin</strong> — atorvastatin 80 or rosuvastatin 40. Target LDL &lt;1.4 mmol/L <em>and</em> ≥50% reduction. Add ezetimibe, then PCSK9i, if not at target at 4–6 weeks.</li>
@@ -949,9 +949,9 @@ eportfolio: `
   <li><strong>SGLT2 inhibitor</strong> — if LVEF ≤40%, CKD, or T2DM.</li>
   <li><strong>Cardiac rehab referral</strong> (Class I A) and smoking cessation.</li>
 </ul>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Posterior STEMI is the classic miss</strong> — isolated ST↓ in V1–V3 with a tall R. Always do V7–V9.</li>
   <li><strong>A raised troponin is not always type 1 MI.</strong> Think MINOCA, myocarditis, Takotsubo, PE, sepsis, CKD, tachyarrhythmia.</li>
@@ -961,7 +961,7 @@ eportfolio: `
   <li>Use PRECISE-DAPT / DAPT scores to justify duration. High bleeding risk → shorter DAPT, then aspirin or P2Y12 monotherapy.</li>
 </ul>
 <p class="text-sm text-muted"><strong>Key trials:</strong> ISAR-REACT 5 · CULPRIT-SHOCK · COMPLETE · DETO2X-AMI · PLATO · TRITON-TIMI 38</p>
-</div></div>`,
+</div></details>`,
 
 'gl-af': `
 <div class="section-title">Atrial Fibrillation</div>
@@ -1034,7 +1034,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Rate control — agents &amp; cautions</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Rate control — agents &amp; cautions</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Drug</th><th>Acute IV</th><th>Oral</th><th>Avoid in</th></tr>
   <tr><td>Beta-blocker</td><td>Metoprolol 2.5–5 mg over 2 min, repeat to 15 mg</td><td>Bisoprolol 1.25–10 mg OD</td><td>Decompensated HF without senior input; pre-excited AF</td></tr>
@@ -1042,11 +1042,11 @@ eportfolio: `
   <tr><td>Digoxin</td><td>0.25–0.5 mg IV, repeat 0.25 mg q6h to 1.5 mg/24 h</td><td>62.5–250 mcg OD (level 0.5–0.9)</td><td>Pre-excited AF; dose-reduce in renal failure</td></tr>
   <tr><td>Amiodarone</td><td>300 mg over 1 h → 900 mg/24 h</td><td>Reserve for HF / refractory</td><td>Will chemically cardiovert — <strong>anticoagulate first</strong></td></tr>
 </table></div>
-<div class="info-box red"><span class="info-box-icon">🚨</span><div><strong>Never combine IV beta-blocker with IV verapamil or diltiazem</strong> — profound bradycardia or asystole.</div></div>
+<div class="info-box red"><span class="info-box-icon">🚨</span><div><strong>Never combine IV beta-blocker with IV verapamil or diltiazem</strong> — profound bradycardia or asystole.</div></details>
 <p>Persistent fast AF with reduced LVEF → consider <strong>tachycardia-induced cardiomyopathy</strong>. Restore rhythm or control rate hard, then reassess LVEF at 3 months.</p>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Rhythm control &amp; cardioversion</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Rhythm control &amp; cardioversion</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>When to pursue rhythm control</h4>
 <ul>
   <li>Symptoms despite adequate rate control (EHRA ≥2b)</li>
@@ -1063,7 +1063,7 @@ eportfolio: `
   <tr><td>Vernakalant</td><td>3 mg/kg over 10 min, then 2 mg/kg</td><td>Avoid in HF, hypotension, severe AS, recent ACS</td></tr>
   <tr><td>Amiodarone</td><td>300 mg over 1 h → 900 mg/24 h</td><td>Slow onset; the choice when structural disease present</td></tr>
 </table></div>
-<div class="info-box red"><span class="info-box-icon">🚨</span><div><strong>Anticoagulation around cardioversion.</strong> &lt;24 h and low risk: heparin/DOAC peri-procedure. 24–48 h: heparin/DOAC before. <strong>&gt;48 h or unknown:</strong> 3 weeks therapeutic OAC <em>or</em> TOE-guided. Afterwards: OAC ≥4 weeks in everyone, then lifelong if CHA₂DS₂-VA ≥1.</div></div>
+<div class="info-box red"><span class="info-box-icon">🚨</span><div><strong>Anticoagulation around cardioversion.</strong> &lt;24 h and low risk: heparin/DOAC peri-procedure. 24–48 h: heparin/DOAC before. <strong>&gt;48 h or unknown:</strong> 3 weeks therapeutic OAC <em>or</em> TOE-guided. Afterwards: OAC ≥4 weeks in everyone, then lifelong if CHA₂DS₂-VA ≥1.</div></details>
 <h4>Long-term antiarrhythmics</h4>
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Drug</th><th>Use when</th></tr>
@@ -1074,7 +1074,7 @@ eportfolio: `
 </table></div>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Catheter ablation</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Catheter ablation</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li>Class I after one failed antiarrhythmic in symptomatic paroxysmal or persistent AF.</li>
   <li><strong>First-line option</strong> for symptomatic paroxysmal AF in selected patients (2024) — EARLY-AF, STOP-AF, CRYO-FIRST.</li>
@@ -1083,9 +1083,9 @@ eportfolio: `
   <li>Recurrence in the <strong>3-month blanking period is expected</strong> — don't re-do too early.</li>
   <li>OAC for ≥2 months post-ablation, then <strong>by CHA₂DS₂-VA, not by perceived success</strong>.</li>
 </ul>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Special situations</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Special situations</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Scenario</th><th>Key points</th></tr>
   <tr><td><strong>AF in HFrEF</strong></td><td>Beta-blocker first, digoxin as add-on. Avoid non-DHP CCB. Strongly consider ablation</td></tr>
@@ -1097,9 +1097,9 @@ eportfolio: `
   <tr><td><strong>LAA occlusion</strong></td><td>High stroke risk with absolute contraindication to OAC (PROTECT-AF, PRAGUE-17)</td></tr>
   <tr><td><strong>Device-detected AHRE</strong></td><td>Episodes ≥6 min but &lt;24 h: shared decision; routine OAC not indicated (NOAH-AFNET 6, ARTESIA)</td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Pre-excited AF is the one that kills.</strong> Blocking the AV node pushes every impulse down the accessory pathway → VF.</li>
   <li><strong>"Lone AF" is rare.</strong> Look hard for hypertension, OSA, thyroid disease, alcohol, obesity, HF.</li>
@@ -1108,7 +1108,7 @@ eportfolio: `
   <li><strong>Reversal:</strong> idarucizumab for dabigatran; andexanet alfa for apixaban/rivaroxaban; PCC if unavailable.</li>
   <li>10% weight loss alone substantially reduces AF burden (LEGACY) — the least prescribed effective therapy.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-hf': `
 <div class="section-title">Heart Failure</div>
@@ -1176,8 +1176,8 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Cardiogenic shock — vasoactive drugs</span><span class="dd-chevron">▼</span></div><div class="dd-body">
-<div class="info-box red"><span class="info-box-icon">🚨</span><div>Early senior + ITU + interventional cardiology. Arterial line and CVC. Urgent echo. If ACS-related → emergency angiography.</div></div>
+<details class="dd"><summary class="dd-head"><span class="dd-title">Cardiogenic shock — vasoactive drugs</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
+<div class="info-box red"><span class="info-box-icon">🚨</span><div>Early senior + ITU + interventional cardiology. Arterial line and CVC. Urgent echo. If ACS-related → emergency angiography.</div></details>
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Drug</th><th>Indication</th><th>Dose</th></tr>
   <tr><td>Noradrenaline</td><td>First-line vasopressor, SBP &lt;90 with hypoperfusion</td><td>0.05–1 mcg/kg/min, titrate to MAP ≥65</td></tr>
@@ -1189,8 +1189,8 @@ eportfolio: `
 <p>Mechanical support (IABP, Impella, VA-ECMO) — consider early in SCAI stage C–D with a reversible cause. Discuss with the regional shock team.</p>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Natriuretic peptides &amp; vasodilators</span><span class="dd-chevron">▼</span></div><div class="dd-body">
-<div class="info-box blue"><span class="info-box-icon">💡</span><div><strong>NT-proBNP rule-out:</strong> &lt;300 pg/mL at any age excludes acute HF. <strong>Rule-in (age-adjusted):</strong> &gt;450 (&lt;50 y) · &gt;900 (50–75 y) · &gt;1800 (&gt;75 y). BNP rule-out &lt;100. <strong>Raised</strong> in AF, PE, sepsis, CKD; <strong>falsely low</strong> in obesity.</div></div>
+<details class="dd"><summary class="dd-head"><span class="dd-title">Natriuretic peptides &amp; vasodilators</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
+<div class="info-box blue"><span class="info-box-icon">💡</span><div><strong>NT-proBNP rule-out:</strong> &lt;300 pg/mL at any age excludes acute HF. <strong>Rule-in (age-adjusted):</strong> &gt;450 (&lt;50 y) · &gt;900 (50–75 y) · &gt;1800 (&gt;75 y). BNP rule-out &lt;100. <strong>Raised</strong> in AF, PE, sepsis, CKD; <strong>falsely low</strong> in obesity.</div></details>
 <p>Vasodilators are for the acutely congested, <em>hypertensive</em> patient (SBP &gt;110) with pulmonary oedema. Avoid if SBP &lt;90 or significant AS/MS. Routine IV nitrate is now only Class IIb.</p>
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Agent</th><th>Start</th><th>Titrate</th></tr>
@@ -1199,7 +1199,7 @@ eportfolio: `
 </table></div>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">HFpEF, devices &amp; disposition</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">HFpEF, devices &amp; disposition</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>HFpEF (LVEF ≥50%)</h4>
 <ul>
   <li><strong>SGLT2 inhibitor</strong> — the one therapy with clear outcome benefit (EMPEROR-Preserved, DELIVER).</li>
@@ -1219,9 +1219,9 @@ eportfolio: `
   <tr><td>Cardiology ward</td><td>Congestion responding to IV diuretic, stable, no ACS</td></tr>
   <tr><td>Ambulatory</td><td>Mild decompensation with robust follow-up <strong>within 7 days</strong> (Class I)</td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>A creatinine rise up to 30% during decongestion is acceptable</strong> — usually haemoconcentration, not AKI.</li>
   <li><strong>Don't reflexively stop ACE-I/ARNI/MRA/SGLT2 in AKI.</strong> Reassess when euvolaemic — stopping usually worsens outcomes.</li>
@@ -1231,7 +1231,7 @@ eportfolio: `
   <li>Pre-discharge NT-proBNP that hasn't fallen by 30% predicts readmission — flag it to the team.</li>
 </ul>
 <p class="text-sm text-muted"><strong>Key trials:</strong> PARADIGM-HF · DAPA-HF · EMPEROR-Reduced · EMPEROR-Preserved · DELIVER · RALES · STRONG-HF · ADVOR · EMPULSE</p>
-</div></div>`,
+</div></details>`,
 
 'gl-htn': `
 <div class="section-title">Hypertension</div>
@@ -1295,7 +1295,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Hypertensive emergency — IV agents</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Hypertensive emergency — IV agents</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Setting</th><th>Agent</th><th>Target</th></tr>
   <tr><td><strong>Aortic dissection</strong></td><td>IV beta-blocker first (labetalol or esmolol), <em>then</em> vasodilator</td><td>SBP &lt;120 and HR &lt;60 within 20 min</td></tr>
@@ -1304,10 +1304,10 @@ eportfolio: `
   <tr><td>Eclampsia / pre-eclampsia</td><td>Labetalol, nifedipine, or hydralazine + magnesium</td><td>&lt;160/110; obstetric input</td></tr>
   <tr><td>Phaeochromocytoma crisis</td><td>Phentolamine — <strong>alpha blockade before beta</strong></td><td>Unopposed beta blockade worsens the crisis</td></tr>
 </table></div>
-<div class="info-box red"><span class="info-box-icon">🚨</span><div>Reduce MAP by <strong>no more than 25% in the first hour</strong> (dissection excepted). Cerebral autoregulation is reset in chronic hypertension — going too fast causes watershed infarction.</div></div>
+<div class="info-box red"><span class="info-box-icon">🚨</span><div>Reduce MAP by <strong>no more than 25% in the first hour</strong> (dissection excepted). Cerebral autoregulation is reset in chronic hypertension — going too fast causes watershed infarction.</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Measurement, and getting it right</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Measurement, and getting it right</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Confirm with ABPM or home readings</strong> before labelling anyone hypertensive — white-coat hypertension is ~15% of clinic diagnoses.</li>
   <li>Seated, back supported, arm at heart level, correct cuff size, no talking, after 5 minutes' rest. An oversized arm in a small cuff reads falsely high.</li>
@@ -1315,7 +1315,7 @@ eportfolio: `
   <li><strong>Masked hypertension</strong> (normal clinic, high ambulatory) carries the same risk as sustained hypertension and is easily missed.</li>
   <li>Look for postural drop before intensifying, especially in the elderly and in diabetes.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-lipids': `
 <div class="section-title">Dyslipidaemia</div>
@@ -1376,7 +1376,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Special situations</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Special situations</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Situation</th><th>Approach</th></tr>
   <tr><td><strong>Post-ACS</strong></td><td>High-intensity statin at presentation. Recheck at 4–6 weeks. Ezetimibe early if not at target; PCSK9i if still &gt;1.4 (Class I)</td></tr>
@@ -1388,9 +1388,9 @@ eportfolio: `
   <tr><td><strong>Pregnancy</strong></td><td>Statins, ezetimibe and PCSK9i all contraindicated. Stop ≥3 months before conception</td></tr>
   <tr><td><strong>Statin intolerance</strong></td><td><strong>70–90% tolerate on rechallenge.</strong> Try a different statin, lower dose, or alternate-day. If genuine: ezetimibe + bempedoic acid / PCSK9i / inclisiran. Check CK only if symptomatic (stop if &gt;4× ULN)</td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Monitoring &amp; pearls</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Monitoring &amp; pearls</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Baseline:</strong> lipids, LFT, TSH, HbA1c. Exclude secondary causes — hypothyroidism, nephrotic syndrome, diabetes, alcohol.</li>
   <li><strong>4–6 weeks</strong> after any change: lipids and LFT. Then 3–6 monthly to target, then annually.</li>
@@ -1401,7 +1401,7 @@ eportfolio: `
   <li>ApoB is the better burden marker in diabetes, obesity, metabolic syndrome, or low LDL.</li>
   <li>Counsel about the <strong>nocebo effect</strong> — subjective muscle symptoms are far commoner than objective myopathy, and blinded rechallenge usually resolves the question.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-syncope': `
 <div class="section-title">Syncope</div>
@@ -1460,7 +1460,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Is it actually syncope?</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Is it actually syncope?</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Suggests syncope</th><th>Suggests something else</th></tr>
   <tr><td>Short duration (&lt;20 s) · brief abnormal movements · complete amnesia · rapid full recovery · typical prodrome and trigger</td><td><strong>Seizure:</strong> tonic-clonic, cyanosis, lateral tongue bite, incontinence, prolonged post-ictal confusion, aura, head turning<br><strong>Hypoglycaemia:</strong> prolonged confusion, sweating, diabetes<br><strong>Psychogenic:</strong> eyes closed, atypical movements, long duration, normal vitals<br><strong>Mechanical fall:</strong> no LOC, alert immediately</td></tr>
@@ -1473,9 +1473,9 @@ eportfolio: `
   <li>Carotid sinus massage if &gt;40 with unexplained syncope (not if bruit or recent stroke/TIA).</li>
   <li><strong>Routine brain imaging and broad bloods are Class III</strong> — very low yield.</li>
 </ul>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Cause-specific management</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Cause-specific management</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Reflex (vasovagal) syncope</h4>
 <ul>
   <li>Education and trigger avoidance — reassurance alone is highly effective.</li>
@@ -1496,9 +1496,9 @@ eportfolio: `
   <li>Structural: severe AS, HCM with LVOT obstruction, cardiac tumour, pulmonary hypertension, PE, dissection.</li>
   <li><strong>Implantable loop recorder early</strong> in unexplained syncope with suspected arrhythmic cause (Class I B).</li>
 </ul>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">DVLA driving advice (UK)</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">DVLA driving advice (UK)</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Scenario</th><th>Group 1 (car)</th><th>Group 2 (bus/lorry)</th></tr>
   <tr><td>Simple faint, typical features</td><td>No restriction</td><td>No restriction</td></tr>
@@ -1507,10 +1507,10 @@ eportfolio: `
   <tr><td>Syncope while driving or seated</td><td>6 months (longer if no cause found)</td><td>12 months</td></tr>
   <tr><td>Appropriate ICD shock</td><td>6 months</td><td><strong>Permanently barred</strong></td></tr>
 </table></div>
-<div class="info-box blue"><span class="info-box-icon">💡</span><div><strong>Counsel and document every time.</strong> The patient self-notifies the DVLA — but the conversation being recorded in the notes is what protects both of you. Check current <em>Assessing Fitness to Drive</em> for the live rules.</div></div>
+<div class="info-box blue"><span class="info-box-icon">💡</span><div><strong>Counsel and document every time.</strong> The patient self-notifies the DVLA — but the conversation being recorded in the notes is what protects both of you. Check current <em>Assessing Fitness to Drive</em> for the live rules.</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Syncope on exertion, supine, or immediately after exercise is cardiac until proven otherwise.</strong></li>
   <li>History plus ECG answers the question in ~60% of cases — take the time, get the witness account.</li>
@@ -1520,7 +1520,7 @@ eportfolio: `
   <li>In the over-65s the cause is often <strong>mixed</strong>: orthostatic drop + polypharmacy + volume depletion + mild rhythm disturbance.</li>
   <li>Normal ECG with no structural disease is genuinely reassuring — cardiac cause is rare.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-brady': `
 <div class="section-title">Bradycardia &amp; Pacing</div>
@@ -1581,7 +1581,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Permanent pacing indications</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Permanent pacing indications</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Condition</th><th>Indication</th><th>Class</th></tr>
   <tr><td>Symptomatic SND with documented correlation</td><td>PPM (DDD preferred)</td><td>I B</td></tr>
@@ -1604,9 +1604,9 @@ eportfolio: `
   <tr><td>Expected ≥40% ventricular pacing with LVEF ≤40%</td><td>CRT or conduction system pacing (HBP / LBBAP)</td></tr>
   <tr><td>Young, limited venous access, prior device infection</td><td>Leadless pacemaker</td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Temporary pacing &amp; MI rules</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Temporary pacing &amp; MI rules</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Transcutaneous:</strong> fastest bridge. AP pads, rate 70–80, increase output to capture (50–100 mA). Sedate. <strong>Confirm mechanical capture by feeling a pulse</strong> — not just the ECG.</li>
   <li><strong>Transvenous:</strong> right IJ or femoral under fluoroscopy/ultrasound. For failed transcutaneous, or Mobitz II / complete AVB in MI with compromise, or overdrive suppression of torsades.</li>
@@ -1619,9 +1619,9 @@ eportfolio: `
   <tr><td>Vagal, nodal, <strong>narrow</strong> escape, atropine-responsive. Resolves in days. Rarely needs permanent pacing. Revascularise</td><td><strong>Infranodal, wide escape, large infarct, high mortality.</strong> Low threshold for temporary pacing</td></tr>
 </table></div>
 <p>Persistent high-grade AVB after MI — wait 5–10 days before committing to a permanent device, unless anterior MI, late/failed revascularisation, or pre-existing conduction disease.</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Device problems — red flags</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Device problems — red flags</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Problem</th><th>Clue</th><th>Action</th></tr>
   <tr><td>Failure to capture</td><td>Pacing spike with no QRS</td><td>Interrogate; check thresholds; exclude metabolic cause</td></tr>
@@ -1631,10 +1631,10 @@ eportfolio: `
   <tr><td>ICD shock</td><td>Appropriate (VT/VF) vs inappropriate (AF, lead noise)</td><td>Urgent interrogation. <strong>Magnet suspends tachy therapy</strong> in storm or clearly inappropriate shocks</td></tr>
   <tr><td>Device infection</td><td>Pocket redness or pus, bacteraemia (especially staph)</td><td>Antibiotics + <strong>complete system removal</strong></td></tr>
 </table></div>
-<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>Magnet behaviour differs.</strong> Over a <em>pacemaker</em> it forces asynchronous pacing at magnet rate. Over an <em>ICD</em> it suspends tachyarrhythmia therapy but does <em>not</em> affect pacing. Remove it when you're done.</div></div>
+<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>Magnet behaviour differs.</strong> Over a <em>pacemaker</em> it forces asynchronous pacing at magnet rate. Over an <em>ICD</em> it suspends tachyarrhythmia therapy but does <em>not</em> affect pacing. Remove it when you're done.</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>The whole test is symptom–rhythm correlation.</strong> Asymptomatic sinus bradycardia rarely needs anything.</li>
   <li><strong>A wide-complex escape in complete heart block is unstable</strong> — low threshold for temporary pacing.</li>
@@ -1642,7 +1642,7 @@ eportfolio: `
   <li><strong>Never cardiovert with pads near the generator.</strong> Use antero-posterior, &gt;10 cm away, then re-interrogate the device.</li>
   <li>Get a 12-lead, not just a rhythm strip, before intervening — if time allows.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-svt': `
 <div class="section-title">SVT &amp; Narrow-Complex Tachycardia</div>
@@ -1705,7 +1705,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Reading the 12-lead</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Reading the 12-lead</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Question</th><th>What it tells you</th></tr>
   <tr><td>Narrow (&lt;120 ms) or wide?</td><td>Narrow → almost always SVT. <strong>Wide → treat as VT</strong></td></tr>
@@ -1720,9 +1720,9 @@ eportfolio: `
   <li>Extreme (northwest) axis · positive or negative precordial concordance</li>
   <li>QRS &gt;140 ms with RBBB morphology, or &gt;160 ms with LBBB morphology</li>
 </ul>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Wide-complex tachycardia — stable</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Wide-complex tachycardia — stable</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Step</th><th>Action</th></tr>
   <tr><td>1</td><td>12-lead now, plus the old baseline ECG (pre-existing BBB? pre-excitation?)</td></tr>
@@ -1733,9 +1733,9 @@ eportfolio: `
   <tr><td>6</td><td>Synchronised DCCV if drugs fail</td></tr>
   <tr><td><strong>Never</strong></td><td><strong>Verapamil in an undiagnosed wide-complex tachycardia</strong> — cardiovascular collapse if it's VT (Class III B)</td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Atrial flutter &amp; special populations</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Atrial flutter &amp; special populations</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Atrial flutter</h4>
 <ul>
   <li>Atrial rate ~300/min with 2:1 block gives a ventricular rate of 150 — <strong>a regular narrow tachycardia at exactly 150 is flutter until proven otherwise</strong>.</li>
@@ -1752,9 +1752,9 @@ eportfolio: `
   <tr><td>Congenital heart disease</td><td>Low threshold for specialist input; anticoagulate intra-atrial re-entry as for AF</td></tr>
   <tr><td>Elderly / AV node disease</td><td>Care combining IV beta-blocker with IV CCB; avoid a single large verapamil bolus</td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>If they're stable, time is on your side.</strong> Get the 12-lead before you do anything.</li>
   <li>Adenosine failure is nearly always a <strong>delivery</strong> problem — large proximal cannula, rapid push, immediate flush.</li>
@@ -1763,7 +1763,7 @@ eportfolio: `
   <li><strong>If in any doubt that a wide complex might be VT, treat it as VT.</strong> The cost of being wrong with verapamil is cardiac arrest.</li>
   <li>Refer every symptomatic recurrent SVT for EP assessment — ablation exceeds 95% success and is now first-line in many cases.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-pe': `
 <div class="section-title">Pulmonary Embolism</div>
@@ -1832,7 +1832,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Thrombolysis — dosing &amp; contraindications</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Thrombolysis — dosing &amp; contraindications</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Alteplase 100 mg IV over 2 h</strong> (accelerated regimen, preferred). Continue UFH during and after.</li>
   <li><strong>Peri-arrest:</strong> 0.6 mg/kg over 15 min (max 50 mg).</li>
@@ -1842,10 +1842,10 @@ eportfolio: `
   <tr><th>Absolute contraindications</th><th>Relative</th></tr>
   <tr><td>Prior haemorrhagic stroke · ischaemic stroke &lt;6 months · CNS neoplasm · CNS trauma/surgery ≤3 weeks · major trauma/surgery &lt;3 weeks · active bleeding · bleeding disorder · <strong>aortic dissection</strong></td><td>TIA within 6 months · on anticoagulation · pregnancy or ≤1 week postpartum · non-compressible puncture · traumatic resuscitation · SBP &gt;180 · advanced liver disease · endocarditis · active peptic ulcer</td></tr>
 </table></div>
-<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>Do not routinely thrombolyse intermediate-high risk PE.</strong> PEITHO showed less haemodynamic decompensation but significantly more bleeding, with ~2% intracranial haemorrhage. Monitor closely and reserve lysis for rescue.</div></div>
+<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>Do not routinely thrombolyse intermediate-high risk PE.</strong> PEITHO showed less haemodynamic decompensation but significantly more bleeding, with ~2% intracranial haemorrhage. Monitor closely and reserve lysis for rescue.</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Supporting the crashing patient</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Supporting the crashing patient</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Fluid:</strong> maximum 500 mL crystalloid. More is actively harmful to a failing RV.</li>
   <li><strong>Vasopressor:</strong> noradrenaline 0.05–1 mcg/kg/min to MAP ≥65.</li>
@@ -1854,9 +1854,9 @@ eportfolio: `
   <li><strong>VA-ECMO:</strong> discuss with the regional centre early, not late.</li>
   <li>Catheter-directed therapy or surgical embolectomy where lysis is contraindicated or has failed.</li>
 </ul>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Special populations &amp; duration</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Special populations &amp; duration</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Group</th><th>Key points</th></tr>
   <tr><td>Cancer-associated</td><td>LMWH or apixaban/edoxaban preferred over warfarin. <strong>Higher bleeding with DOACs in luminal GI/GU tumours.</strong> Minimum 6 months, continue while cancer active</td></tr>
@@ -1875,9 +1875,9 @@ eportfolio: `
   <tr><td>Triple-positive antiphospholipid syndrome</td><td><strong>Indefinite warfarin (INR 2–3)</strong> — DOACs inferior (TRAPS)</td></tr>
 </table></div>
 <p>For extended therapy beyond 6 months, reduced-dose DOAC (apixaban 2.5 mg BD or rivaroxaban 10 mg OD) is an option in selected patients.</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Normal troponin + normal BNP almost excludes prognostically significant PE.</strong></li>
   <li><strong>RV dysfunction with a normal troponin</strong> — these patients are sicker than they look. Monitor closely.</li>
@@ -1886,7 +1886,7 @@ eportfolio: `
   <li>Syncope with unexplained tachycardia — think PE (PESIT).</li>
   <li>Every patient discharged on anticoagulation needs: <strong>indication, agent, duration, follow-up plan, and written information.</strong></li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-vhd': `
 <div class="section-title">Valvular Heart Disease</div>
@@ -1947,15 +1947,15 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">TAVI vs SAVR — how the Heart Team decides</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">TAVI vs SAVR — how the Heart Team decides</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Favours TAVI</th><th>Favours SAVR</th></tr>
   <tr><td>Older age (&gt;75)<br>High or prohibitive surgical risk<br>Frailty, hostile chest, porcelain aorta<br>Prior cardiac surgery<br>Suitable transfemoral access</td><td>Younger, low surgical risk<br>Long life expectancy<br>Bicuspid valve with adverse anatomy<br>Concomitant disease needing surgery (CABG, other valve, aortic root)<br>Unfavourable TAVI anatomy</td></tr>
 </table></div>
 <p class="text-sm text-muted">Durability data increasingly favour considering lifetime management — which valve first, and what the second intervention will look like in 10–15 years. This is now central to the conversation in patients under 70.</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Anticoagulation &amp; prosthetic valves</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Anticoagulation &amp; prosthetic valves</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Situation</th><th>Anticoagulation</th></tr>
   <tr><td><strong>Mechanical valve</strong></td><td><strong>Warfarin only — DOACs are contraindicated.</strong> Target INR by valve position and thrombogenicity (aortic 2.5–3.0; mitral 3.0)</td></tr>
@@ -1964,10 +1964,10 @@ eportfolio: `
   <tr><td>Moderate–severe mitral stenosis + AF</td><td><strong>Warfarin — not a DOAC</strong></td></tr>
   <tr><td>Post-TAVI</td><td>Single antiplatelet if no other indication; OAC if AF. Routine DAPT no longer recommended</td></tr>
 </table></div>
-<div class="info-box red"><span class="info-box-icon">🚨</span><div><strong>Prosthetic valve thrombosis</strong> — new dyspnoea, muffled click, raised gradients. Urgent TOE and fluoroscopy. Obstructive left-sided thrombosis: surgery or thrombolysis depending on risk and centre. Involve the Heart Team immediately.</div></div>
+<div class="info-box red"><span class="info-box-icon">🚨</span><div><strong>Prosthetic valve thrombosis</strong> — new dyspnoea, muffled click, raised gradients. Urgent TOE and fluoroscopy. Obstructive left-sided thrombosis: surgery or thrombolysis depending on risk and centre. Involve the Heart Team immediately.</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>In severe AS, the symptom is the indication.</strong> Once symptomatic, untreated survival is measured in months to a couple of years.</li>
   <li><strong>Acute severe regurgitation looks nothing like chronic.</strong> The ventricle hasn't dilated, so you get flash pulmonary oedema with a normal heart size and a surprisingly quiet murmur.</li>
@@ -1975,7 +1975,7 @@ eportfolio: `
   <li><strong>Asymptomatic doesn't always mean well.</strong> Ask about reduced exercise tolerance that the patient has quietly adapted to — exercise testing unmasks it.</li>
   <li>Any new murmur with fever needs three sets of blood cultures before antibiotics.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-pericarditis': `
 <div class="section-title">Pericarditis</div>
@@ -2038,7 +2038,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Refractory &amp; recurrent disease</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Refractory &amp; recurrent disease</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <p>If NSAID/aspirin fails or is contraindicated → low-to-moderate dose prednisolone <strong>0.2–0.5 mg/kg/day</strong> <em>plus</em> colchicine, with a slow taper guided by CRP.</p>
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Option</th><th>Notes</th></tr>
@@ -2048,9 +2048,9 @@ eportfolio: `
   <tr><td>Azathioprine / IVIG</td><td>Refractory, usually as steroid-sparing agents</td></tr>
 </table></div>
 <p><strong>Refer early</strong> to a pericardial diseases clinic — recurrent pericarditis is a specialist problem and IL-1 blockade has transformed outcomes.</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Effusion, myopericarditis &amp; constriction</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Effusion, myopericarditis &amp; constriction</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Effusion by size (diastolic)</h4>
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Size</th><th>Management</th></tr>
@@ -2067,9 +2067,9 @@ eportfolio: `
 </ul>
 <h4>Constrictive pericarditis</h4>
 <p>Right-sided failure with preserved LV function: oedema, ascites, raised JVP with <strong>prominent Y descent</strong>, Kussmaul's sign, pericardial knock. Distinguish from restriction by echo (septal bounce, &gt;25% respiratory variation across mitral, expiratory hepatic vein flow reversal), CT (thickening, calcification), CMR, and catheter (equalised diastolic pressures, dip-and-plateau). <strong>Transient inflammatory constriction may resolve</strong> with 3–6 months of anti-inflammatory therapy (IIa) — otherwise pericardiectomy.</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Post-MI pericarditis: use aspirin, not other NSAIDs</strong> — they impair infarct healing. Add colchicine.</li>
   <li><strong>Always co-prescribe a PPI.</strong> Treatment courses are long and recurrences common.</li>
@@ -2078,7 +2078,7 @@ eportfolio: `
   <li>Dressler's syndrome appears weeks after MI or cardiotomy — colchicine is the key drug.</li>
   <li>Large unexplained effusion with systemic features — <strong>think TB, malignancy, autoimmune disease, hypothyroidism</strong>.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-diabetes': `
 <div class="section-title">Diabetes &amp; CV Disease</div>
@@ -2133,7 +2133,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">GLP-1 receptor agonists &amp; finerenone</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">GLP-1 receptor agonists &amp; finerenone</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Agent</th><th>Dose</th><th>Evidence</th></tr>
   <tr><td>Semaglutide</td><td>SC 0.25–2 mg weekly, or oral 3–14 mg daily</td><td>SUSTAIN-6, PIONEER-6. <strong>SELECT — CV benefit in obesity without diabetes</strong></td></tr>
@@ -2145,9 +2145,9 @@ eportfolio: `
 <p>Non-steroidal MRA, <strong>10–20 mg OD</strong>. For T2DM with CKD (eGFR ≥25 with albuminuria) — reduces CV and kidney events on top of ACE-I/ARB (FIDELIO-DKD, FIGARO-DKD). <strong>Don't start if K &gt;5.0.</strong> Compatible with SGLT2i.</p>
 <h4>Where metformin sits now</h4>
 <p>Still first-line for glycaemic control, but the CV outcome data are thin (largely UKPDS). <strong>Add SGLT2i and/or GLP-1 RA based on the cardiac indication, not the HbA1c.</strong> Contraindicated below eGFR 30; hold in acute illness with AKI risk.</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">BP, antiplatelets &amp; HF</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">BP, antiplatelets &amp; HF</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Blood pressure</h4>
 <ul>
   <li>Treat from ≥140/90 (≥130/80 if very high risk). Target SBP <strong>120–130</strong> in most under 80 — avoid going below 120.</li>
@@ -2164,9 +2164,9 @@ eportfolio: `
 </table></div>
 <h4>Heart failure</h4>
 <p>Every patient with T2DM and HF of <em>any</em> LVEF should be on dapagliflozin or empagliflozin. <strong>Avoid saxagliptin and alogliptin</strong> (increased HF hospitalisation) and <strong>pioglitazone</strong> (fluid retention).</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Perioperative &amp; sick-day rules</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Perioperative &amp; sick-day rules</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Drug</th><th>Action</th></tr>
   <tr><td><strong>SGLT2 inhibitor</strong></td><td><strong>Hold ≥3 days</strong> before major surgery, fasting, or acute illness — euglycaemic DKA risk</td></tr>
@@ -2183,7 +2183,7 @@ eportfolio: `
   <li>Start cardioprotective agents during the admission, not "for the GP to sort out".</li>
   <li>New-onset AF is commoner in diabetes — screen opportunistically.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-vt': `
 <div class="section-title">VT &amp; Electrical Storm</div>
@@ -2247,7 +2247,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Torsades &amp; polymorphic VT</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Torsades &amp; polymorphic VT</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Polymorphic VT with a <em>normal</em> QT — usually acute ischaemia</h4>
 <ul>
   <li>Defibrillate/cardiovert urgently. <strong>Urgent revascularisation</strong> — cath lab if ACS.</li>
@@ -2263,10 +2263,10 @@ eportfolio: `
   <tr><td>5</td><td><strong>Overdrive pacing</strong> at 90–110 — shortens QT, suppresses afterdepolarisations. Class I in acquired torsades</td></tr>
   <tr><td>6</td><td>Isoprenaline 2–10 mcg/min as a bridge to pacing — <strong>acquired long QT only</strong></td></tr>
 </table></div>
-<div class="info-box red"><span class="info-box-icon">🚨</span><div><strong>The congenital vs acquired distinction changes the treatment completely.</strong><br><strong>Acquired</strong> (drugs, hypokalaemia, hypomagnesaemia) → <em>raise</em> the heart rate: pacing, isoprenaline.<br><strong>Congenital</strong> (LQT1/LQT2, sympathetically triggered) → <em>reduce</em> sympathetic drive: beta-blocker. Isoprenaline would be actively harmful.<br>Use the drug list, the pre-event baseline QT, family history and age to decide.</div></div>
+<div class="info-box red"><span class="info-box-icon">🚨</span><div><strong>The congenital vs acquired distinction changes the treatment completely.</strong><br><strong>Acquired</strong> (drugs, hypokalaemia, hypomagnesaemia) → <em>raise</em> the heart rate: pacing, isoprenaline.<br><strong>Congenital</strong> (LQT1/LQT2, sympathetically triggered) → <em>reduce</em> sympathetic drive: beta-blocker. Isoprenaline would be actively harmful.<br>Use the drug list, the pre-event baseline QT, family history and age to decide.</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Substrate-specific patterns</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Substrate-specific patterns</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Substrate</th><th>Clues</th><th>Implications</th></tr>
   <tr><td><strong>Ischaemic CM</strong> (commonest)</td><td>Scar re-entry; monomorphic VT matching infarct territory</td><td>Revascularise. ICD for secondary prevention or LVEF ≤35%. Ablation for recurrent VT (VANISH)</td></tr>
@@ -2277,9 +2277,9 @@ eportfolio: `
   <tr><td>Channelopathies</td><td>Long QT · Brugada (coved type 1) · CPVT (bidirectional VT on exercise) · short QT</td><td>Avoid trigger drugs (qtdrugs.org, brugadadrugs.org). Beta-blocker for LQT1/2 and CPVT. <strong>Quinidine for Brugada storm</strong></td></tr>
   <tr><td>Idiopathic VT</td><td><strong>RVOT:</strong> LBBB + inferior axis, normal heart. <strong>Fascicular:</strong> RBBB + axis deviation, verapamil-sensitive</td><td>Good prognosis. <strong>Ablation is often curative</strong> — refer</td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">ICD &amp; CRT-D indications</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">ICD &amp; CRT-D indications</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Indication</th><th>Class</th></tr>
   <tr><td><strong>Secondary prevention</strong> — survivor of VF or unstable VT without reversible cause</td><td>I A</td></tr>
@@ -2293,9 +2293,9 @@ eportfolio: `
   <tr><td>Wearable defibrillator as bridge — recent MI, peripartum CM, awaiting transplant</td><td>IIb</td></tr>
 </table></div>
 <p><strong>S-ICD</strong> — consider when there's no pacing or CRT requirement, no need for anti-tachycardia pacing, vascular access concerns, or a young patient facing decades of device therapy.</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pearls &amp; traps</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Default to VT.</strong> The cost of wrongly treating SVT as VT is a delay; the cost of wrongly giving verapamil to VT is cardiac arrest.</li>
   <li><strong>Magnesium works in torsades even with a normal magnesium level.</strong> Give it.</li>
@@ -2304,7 +2304,7 @@ eportfolio: `
   <li>Ablation has moved from last resort to <strong>consider early</strong> — refer before the third storm, not after.</li>
   <li>A young person with sustained VT or out-of-hospital arrest needs <strong>CMR, genetic counselling, and screening of first-degree relatives</strong>.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-aortic': `
 <div class="section-title">Aortic Syndromes</div>
@@ -2362,7 +2362,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">ADD-RS &amp; imaging strategy</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">ADD-RS &amp; imaging strategy</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <p>One point per <em>category</em> where any feature is present. Maximum 3.</p>
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Category</th><th>Features</th></tr>
@@ -2382,10 +2382,10 @@ eportfolio: `
   <tr><td>TOE</td><td>Bedside option if too unstable to travel. 98% sensitive, operator-dependent</td></tr>
   <tr><td>TTE</td><td>Useful for root, AR, pericardial effusion. <strong>A normal TTE does not exclude dissection</strong></td></tr>
 </table></div>
-<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>D-dimer can be falsely normal</strong> in localised intramural haematoma, short-segment dissection, or a thrombosed false lumen. Never use it alone.</div></div>
+<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>D-dimer can be falsely normal</strong> in localised intramural haematoma, short-segment dissection, or a thrombosed false lumen. Never use it alone.</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Type A and Type B management</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Type A and Type B management</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Type A — emergency surgery</h4>
 <ul>
   <li>Operative mortality ~15–25%; medical mortality ~50% at 30 days. <strong>Surgery saves lives.</strong></li>
@@ -2399,9 +2399,9 @@ eportfolio: `
   <tr><td>Best medical therapy. ITU/HDU initially for tight rate and BP control. Serial imaging at 1, 3, 6, 12 months then annually</td><td>Malperfusion (mesenteric, renal, limb, spinal, cerebral) · rupture · rapid expansion (&gt;5 mm in 2 weeks, or &gt;55 mm) · refractory pain · refractory hypertension</td></tr>
 </table></div>
 <p>TEVAR covers the entry tear and depressurises the false lumen — lower mortality than open surgery for complicated Type B. INSTEAD-XL suggested pre-emptive TEVAR may improve 5-year survival in selected uncomplicated cases; not yet routine.</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Connective tissue disease &amp; intervention thresholds</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Connective tissue disease &amp; intervention thresholds</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Condition</th><th>Features</th><th>Root threshold</th></tr>
   <tr><td>Marfan (FBN1)</td><td>Tall, arachnodactyly, ectopia lentis, MVP, AR</td><td>≥5.0 cm; <strong>≥4.5 cm</strong> with family history of dissection, rapid growth, or pre-pregnancy</td></tr>
@@ -2419,9 +2419,9 @@ eportfolio: `
   <tr><td>Abdominal</td><td>≥5.5 cm men · ≥5.0 cm women · or symptomatic · or growth &gt;10 mm/yr</td></tr>
   <tr><td><strong>Symptomatic</strong></td><td><strong>Operate regardless of diameter</strong></td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Follow-up &amp; pearls</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Follow-up &amp; pearls</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Lifelong BP and HR control</strong> — target SBP &lt;130, HR &lt;60. Surveillance CTA/MRA at 1, 3, 6, 12 months then annually.</li>
   <li><strong>Avoid</strong> heavy isometric exercise and Valsalva, competitive sport, and stimulants (cocaine, amphetamines).</li>
@@ -2435,7 +2435,7 @@ eportfolio: `
   <li><strong>Rate before pressure, every time.</strong></li>
   <li>BAV aortopathy is independent of valve haemodynamics — <strong>surveillance continues even after valve replacement</strong>.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-tamponade': `
 <div class="section-title">Cardiac Tamponade</div>
@@ -2505,14 +2505,14 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Recognition, aetiology &amp; investigation</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Recognition, aetiology &amp; investigation</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Clinical features</h4>
 <ul>
   <li><strong>Beck's triad</strong> (surgical tamponade): hypotension · raised JVP with prominent X descent and absent Y · muffled heart sounds.</li>
   <li><strong>Modern features</strong> (often the first clue medically): sinus tachycardia · tachypnoea and orthopnoea · <strong>pulsus paradoxus &gt;10 mmHg</strong> · narrow pulse pressure · cold peripheries, oliguria, altered mentation.</li>
   <li>Large chronic effusions can compress neighbours: dysphagia, hoarseness, nausea, hiccups.</li>
 </ul>
-<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>Kussmaul's sign is unusual in tamponade.</strong> It belongs to constriction, restriction, or RV infarction. If present, think effusive-constrictive physiology.</div></div>
+<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>Kussmaul's sign is unusual in tamponade.</strong> It belongs to constriction, restriction, or RV infarction. If present, think effusive-constrictive physiology.</div></details>
 <h4>Aetiology (ESC 2025, by frequency)</h4>
 <ol>
   <li><strong>Malignancy</strong> — lung, breast, lymphoma, mesothelioma</li>
@@ -2532,7 +2532,7 @@ eportfolio: `
 <p class="text-sm text-muted"><strong>Iatrogenic tamponade is increasingly common</strong> — AF ablation causes pericarditis in ~10%. Bedside echo the moment anything looks wrong after a procedure; time-to-diagnosis predicts survival.</p>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">ESC 2025 triage score</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">ESC 2025 triage score</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <p>Points across three categories. <strong>Total ≥6 from at least two categories → immediate pericardiocentesis.</strong></p>
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Category</th><th>Feature</th><th>Points</th></tr>
@@ -2551,10 +2551,10 @@ eportfolio: `
   <tr><td>Cardiomegaly · microvoltage · moderate effusion · RA collapse · flow variation · swinging heart</td><td>+1 each</td></tr>
   <tr><td><em>Small effusion</em></td><td>−1</td></tr>
 </table></div>
-<div class="info-box blue"><span class="info-box-icon">💡</span><div><strong>How to actually use it:</strong> anyone with definite clinical tamponade or persistent instability drains <em>regardless of score</em>. The score earns its keep in the <strong>ambiguous middle</strong> — large effusion, haemodynamically stable — where it guides urgent versus elective drainage. Check how your ITU and cath lab want it applied locally.</div></div>
+<div class="info-box blue"><span class="info-box-icon">💡</span><div><strong>How to actually use it:</strong> anyone with definite clinical tamponade or persistent instability drains <em>regardless of score</em>. The score earns its keep in the <strong>ambiguous middle</strong> — large effusion, haemodynamically stable — where it guides urgent versus elective drainage. Check how your ITU and cath lab want it applied locally.</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Pericardiocentesis &amp; complications</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Pericardiocentesis &amp; complications</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>Echo-guided is standard</strong> (Class I). Fluoroscopy in the cath lab is equivalent in expert hands.</li>
   <li>Subxiphoid is classical; <strong>apical increasingly common</strong> when echo shows the largest pocket there.</li>
@@ -2565,9 +2565,9 @@ eportfolio: `
 </ul>
 <h4>Complications (~4–10%)</h4>
 <p>Cardiac chamber puncture (RV commonest) · coronary or internal mammary artery injury · pneumothorax or haemothorax · pneumopericardium · hepatic injury (subxiphoid) · arrhythmia · vagal reaction · <strong>pericardial decompression syndrome</strong> — rare but needs a monitored bed for 24 h.</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Special situations</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Special situations</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Scenario</th><th>Key points</th></tr>
   <tr><td><strong>Type A dissection</strong></td><td><strong>Do NOT drain unless arrest is imminent.</strong> The tamponade is temporarily maintaining haemostasis — relieving it risks exsanguination. Bridge to theatre. If unavoidable, aspirate 20–50 mL only, to SBP ~90</td></tr>
@@ -2586,7 +2586,7 @@ eportfolio: `
   <li><strong>Aspirin, colchicine and anti-TB drugs treat causes — never the tamponade.</strong> Drainage is definitive.</li>
   <li>What happens in the pericardium is usually a marker of systemic disease. Stabilise the physiology, then chase the aetiology.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-ie': `
 <div class="section-title">Infective Endocarditis</div>
@@ -2640,7 +2640,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Workup &amp; targeted therapy</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Workup &amp; targeted therapy</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Workup</h4>
 <ul>
   <li><strong>TTE urgently</strong> as first-line (Class I). <strong>TOE</strong> if TTE negative or inconclusive, prosthetic valve, intracardiac device, or strong suspicion. <strong>Repeat TOE at 5–7 days</strong> if the first is negative but suspicion persists.</li>
@@ -2661,9 +2661,9 @@ eportfolio: `
 </table></div>
 <h4>Oral switch &amp; OPAT (POET)</h4>
 <p>After <strong>≥10 days IV</strong> (or ≥7 days post-surgery), a clinically stable patient with a susceptible organism and a negative TOE before switching can complete therapy orally or via OPAT. <strong>Not for:</strong> early PVE · abscess or mycotic aneurysm · <em>S. aureus</em> native valve without an expert team · ongoing clinical or microbiological activity.</p>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Surgery — Endocarditis Team decision</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Surgery — Endocarditis Team decision</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Indication</th><th>Timing</th></tr>
   <tr><td><strong>Heart failure</strong> from acute severe regurgitation or obstruction</td><td><strong>Emergency (&lt;24 h)</strong> if refractory shock or pulmonary oedema</td></tr>
@@ -2673,9 +2673,9 @@ eportfolio: `
   <tr><td><strong>Embolism prevention</strong> — vegetation &gt;10 mm with embolic event on antibiotics, or &gt;10 mm on a high-risk valve, or persistent &gt;30 mm</td><td>Urgent</td></tr>
   <tr><td>PVE complications — dehiscence, fistula, large abscess</td><td>Urgent / elective</td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Special scenarios &amp; prophylaxis</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Special scenarios &amp; prophylaxis</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Scenario</th><th>Key points</th></tr>
   <tr><td><strong>Device (CIED) infection</strong></td><td><strong>Complete system removal is mandatory</strong> (Class I) plus targeted antibiotics. Reimplant after negative cultures — often contralateral or leadless</td></tr>
@@ -2701,7 +2701,7 @@ eportfolio: `
   <li><strong>New AV block = abscess until proven otherwise.</strong> Urgent TOE, consider surgery.</li>
   <li>Relapse risk is highest in the first year — educate about dental hygiene and warning symptoms before discharge.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-cmp': `
 <div class="section-title">Cardiomyopathies</div>
@@ -2761,7 +2761,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">HCM — workup, obstruction, SCD risk</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">HCM — workup, obstruction, SCD risk</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Workup</h4>
 <ul>
   <li><strong>ECG:</strong> voltage criteria, deep TWI (giant negative T waves in apical HCM), pathological Q waves.</li>
@@ -2779,10 +2779,10 @@ eportfolio: `
 </ul>
 <h4>SCD risk</h4>
 <p>ESC HCM Risk-SCD uses age, family history of SCD, unexplained syncope, NSVT, max wall thickness, LA diameter, LVOT gradient. <strong>≥6% at 5 years → ICD should be considered (IIa)</strong>; 4–6% with extensive LGE, apical aneurysm, or syncope → may be considered (IIb). Survivor of arrest or sustained VT → ICD regardless (Class I).</p>
-<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>AF in HCM: anticoagulate regardless of CHA₂DS₂-VA</strong> (Class I) — thromboembolic risk far exceeds what the score predicts. Avoid digoxin (worsens obstruction) and be cautious with vasodilators.</div></div>
+<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>AF in HCM: anticoagulate regardless of CHA₂DS₂-VA</strong> (Class I) — thromboembolic risk far exceeds what the score predicts. Avoid digoxin (worsens obstruction) and be cautious with vasodilators.</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Amyloid &amp; sarcoid — management</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Amyloid &amp; sarcoid — management</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Amyloid types</h4>
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Type</th><th>Population</th><th>Treatment</th></tr>
@@ -2806,9 +2806,9 @@ eportfolio: `
   <li>Prednisolone 30–40 mg tapered over months ± methotrexate/azathioprine/MMF. Infliximab in refractory specialist cases.</li>
   <li>Low threshold for pacing; ICD if sustained VT/VF, LVEF ≤35%, or scar with inducible VT.</li>
 </ul>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">DCM causes, ARVC, Takotsubo</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">DCM causes, ARVC, Takotsubo</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>DCM — causes worth chasing</h4>
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Cause</th><th>Clue</th><th>Why it matters</th></tr>
@@ -2820,7 +2820,7 @@ eportfolio: `
   <tr><td>Iron overload</td><td>Ferritin, transferrin saturation, HFE</td><td>Venesection</td></tr>
   <tr><td>Endocrine</td><td>Thyroid, phaeochromocytoma, acromegaly</td><td>Targeted therapy</td></tr>
 </table></div>
-<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>LMNA and FLNC truncating variants:</strong> malignant ventricular arrhythmia arrives <em>before</em> systolic dysfunction is severe. Discuss ICD even with LVEF &gt;35%.</div></div>
+<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>LMNA and FLNC truncating variants:</strong> malignant ventricular arrhythmia arrives <em>before</em> systolic dysfunction is severe. Discuss ICD even with LVEF &gt;35%.</div></details>
 <h4>ARVC</h4>
 <p>Triad: ECG changes (TWI V1–V3 over age 14, epsilon waves), structural change (RV dilatation, regional aneurysm), and arrhythmia (LBBB-morphology VT with superior axis). <strong>Exercise restriction is disease-modifying</strong> — high-intensity endurance accelerates progression (Class I). Family screening every 2–3 years, more often in adolescence.</p>
 <h4>Takotsubo</h4>
@@ -2832,7 +2832,7 @@ eportfolio: `
 </ul>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Family screening &amp; pearls</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Family screening &amp; pearls</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li>Once confirmed in a proband, <strong>first-degree relatives need history, examination, ECG and echo</strong>.</li>
   <li>If a pathogenic variant is found — <strong>cascade genetic testing</strong>. Carriers screened periodically; non-carriers can be reassured and discharged.</li>
@@ -2848,7 +2848,7 @@ eportfolio: `
   <li>Distinguish restriction from <strong>constriction</strong> — constriction may be surgically curable.</li>
   <li>LV non-compaction can be a benign variant in athletes and Afro-Caribbean populations. <strong>Treat the phenotype, not the trabeculation.</strong></li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 'gl-myocarditis': `
 <div class="section-title">Myocarditis</div>
@@ -2916,8 +2916,8 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">CMR, biopsy &amp; the four histologies</span><span class="dd-chevron">▼</span></div><div class="dd-body">
-<div class="info-box blue"><span class="info-box-icon">💡</span><div><strong>Lake Louise 2 criteria</strong> — CMR is diagnostic when you have <strong>at least one T2-based marker (oedema)</strong> <em>plus</em> <strong>at least one T1-based marker (injury: native T1, ECV, or LGE)</strong>. Both are needed for specificity. Ask explicitly for a myocarditis protocol.</div></div>
+<details class="dd"><summary class="dd-head"><span class="dd-title">CMR, biopsy &amp; the four histologies</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
+<div class="info-box blue"><span class="info-box-icon">💡</span><div><strong>Lake Louise 2 criteria</strong> — CMR is diagnostic when you have <strong>at least one T2-based marker (oedema)</strong> <em>plus</em> <strong>at least one T1-based marker (injury: native T1, ECV, or LGE)</strong>. Both are needed for specificity. Ask explicitly for a myocarditis protocol.</div></details>
 <p><strong>Timing matters:</strong> a negative CMR does not exclude myocarditis if imaging is done within 72 h of symptom onset or beyond 4 weeks — the oedema signal is time-limited.</p>
 <h4>EMB — targeted, not routine (Class I C)</h4>
 <ul>
@@ -2934,8 +2934,8 @@ eportfolio: `
 </table></div>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">ICI myocarditis — the emerging emergency</span><span class="dd-chevron">▼</span></div><div class="dd-body">
-<div class="info-box red"><span class="info-box-icon">🚨</span><div>Affects <strong>~1%</strong> of checkpoint-inhibitor patients, typically within the first weeks (median 30 days). <strong>Mortality up to 50%</strong> without prompt treatment. Combination therapy (ipilimumab + nivolumab) carries the highest risk. Often <strong>arrhythmogenic before it is heart-failing</strong> — a modest troponin rise deserves urgent attention. Screen for coexistent myositis and respiratory muscle weakness, which worsen prognosis.</div></div>
+<details class="dd"><summary class="dd-head"><span class="dd-title">ICI myocarditis — the emerging emergency</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
+<div class="info-box red"><span class="info-box-icon">🚨</span><div>Affects <strong>~1%</strong> of checkpoint-inhibitor patients, typically within the first weeks (median 30 days). <strong>Mortality up to 50%</strong> without prompt treatment. Combination therapy (ipilimumab + nivolumab) carries the highest risk. Often <strong>arrhythmogenic before it is heart-failing</strong> — a modest troponin rise deserves urgent attention. Screen for coexistent myositis and respiratory muscle weakness, which worsen prognosis.</div></details>
 <ul>
   <li><strong>Diagnostic triage within 24 hours</strong> of suspicion (Class I C).</li>
   <li><strong>Stop the ICI and start high-dose corticosteroids immediately</strong> (Class I C).</li>
@@ -2952,7 +2952,7 @@ eportfolio: `
 <p class="text-sm text-muted">Individual cardio-oncology services often have their own protocol — <strong>check yours before you're on-call for it</strong>. Rechallenge after recovery is possible but is never a solo decision.</p>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Giant cell, eosinophilic &amp; therapy by stage</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Giant cell, eosinophilic &amp; therapy by stage</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <h4>Giant cell myocarditis</h4>
 <ul>
   <li>Suspect: new HF with a <strong>treatment-resistant course</strong>, ventricular arrhythmia, or high-grade AV block, age 16–69.</li>
@@ -2974,10 +2974,10 @@ eportfolio: `
   <tr><td>Complicated</td><td>Full HFrEF therapy. Treat arrhythmia by substrate; consider ICD after the acute phase. Pacing for AVB — low threshold in giant cell/sarcoid. <strong>EMB if not improving in 1–2 weeks</strong></td></tr>
   <tr><td>Fulminant</td><td>Mechanical support (IABP, Impella, VA-ECMO) with early tertiary transfer. Urgent EMB once stabilised. Early transplant workup if refractory</td></tr>
 </table></div>
-<div class="info-box green"><span class="info-box-icon">📈</span><div><strong>Fulminant lymphocytic myocarditis has surprisingly good long-term recovery if bridged through the acute phase.</strong> Do not withdraw support prematurely. (Empirical steroids pending biopsy remains genuinely non-consensus — practice varies by centre.)</div></div>
+<div class="info-box green"><span class="info-box-icon">📈</span><div><strong>Fulminant lymphocytic myocarditis has surprisingly good long-term recovery if bridged through the acute phase.</strong> Do not withdraw support prematurely. (Empirical steroids pending biopsy remains genuinely non-consensus — practice varies by centre.)</div></details>
 </div></div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Special situations &amp; return to exercise</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Special situations &amp; return to exercise</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Scenario</th><th>Key points</th></tr>
   <tr><td>COVID-19</td><td>Direct SARS-CoV-2 myocarditis is proven but uncommon. A troponin rise more often reflects sepsis-related injury or type-2 MI. Most CMR changes resolve</td></tr>
@@ -2994,7 +2994,7 @@ eportfolio: `
   <li><span class="pill pill-amber">Amber</span> persistent LGE with normal function — individualise; recreational exercise usually permitted.</li>
   <li><span class="pill pill-red">Red</span> <strong>LGE &gt;20% of LV mass</strong>, persistent dysfunction, or exercise-induced arrhythmia — avoid moderate/high intensity.</li>
 </ul>
-<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>The athlete pushing for early return is the commonest cause of recurrence.</strong> Be firm, explain the reasoning, and document the conversation. Exercise restriction is often the single intervention that most changes the outcome.</div></div>
+<div class="info-box amber"><span class="info-box-icon">⚠️</span><div><strong>The athlete pushing for early return is the commonest cause of recurrence.</strong> Be firm, explain the reasoning, and document the conversation. Exercise restriction is often the single intervention that most changes the outcome.</div></details>
 </div></div>`,
 
 'gl-sport': `
@@ -3051,7 +3051,7 @@ eportfolio: `
 
 <div class="deep-dive-header">Deep dive</div>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Return to exercise by condition</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Return to exercise by condition</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <div class="table-wrap"><table class="guide-table">
   <tr><th>Condition</th><th>Guidance</th></tr>
   <tr><td>Acute coronary syndrome</td><td>Wait ≥3 months and risk stratify. Low-risk → all sports. Avoid high-intensity competition if residual ischaemia, LVEF &lt;40%, or exercise-induced arrhythmia</td></tr>
@@ -3065,9 +3065,9 @@ eportfolio: `
   <tr><td>Heart failure</td><td>Regular moderate aerobic exercise is <strong>recommended</strong> (Class I) — improves outcomes and quality of life</td></tr>
   <tr><td>Valve disease</td><td>Severe AS — no competitive sport. Moderate AS — low intensity only. Severe AR with LV dilatation — restricted</td></tr>
 </table></div>
-</div></div>
+</div></details>
 
-<div class="dd"><div class="dd-head" onclick="toggleDD(this)"><span class="dd-title">Prescribing exercise &amp; pearls</span><span class="dd-chevron">▼</span></div><div class="dd-body">
+<details class="dd"><summary class="dd-head"><span class="dd-title">Prescribing exercise &amp; pearls</span><span class="dd-chevron">▼</span></summary><div class="dd-body">
 <ul>
   <li><strong>All patients with cardiovascular disease benefit from regular moderate exercise</strong> (Class I) — it reduces both CV and all-cause mortality.</li>
   <li><strong>Prescription:</strong> 150 min/week moderate (50–70% max HR) <em>or</em> 75 min/week vigorous, plus resistance training 2–3 days/week.</li>
@@ -3083,7 +3083,7 @@ eportfolio: `
   <li><strong>Shared decision-making has replaced blanket disqualification</strong> — this is the biggest shift in the 2020 guideline.</li>
   <li>Exercise prescription in chronic disease: start low, go slow. Most patients achieve more than you'd expect if built up gradually.</li>
 </ul>
-</div></div>`,
+</div></details>`,
 
 echo: `
 <div class="section-title">Echocardiography — BSE Accreditation Pathway</div>
