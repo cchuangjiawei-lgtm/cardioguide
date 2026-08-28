@@ -23,6 +23,7 @@ const NAV = [
     children: [
       { id: 'arcp-checklists', title: '✅ Year Checklists' },
       { id: 'arcp-outcomes', title: 'ARCP Outcomes' },
+      { id: 'gim', title: 'GIM / IMS2 Requirements' },
       { id: 'sles', title: 'SLE Requirements' },
       { id: 'eportfolio', title: 'ePortfolio Tips' },
     ]
@@ -62,6 +63,7 @@ const SECTION_PROMPTS = {
   'advanced-themes': ['Help me decide which advanced theme suits me','What does interventional cardiology training involve?','Compare EP vs advanced imaging as pathways'],
   'arcp-checklists': ['Am I on track for a satisfactory ST4 ARCP?','What are the most important things to complete before my first ARCP?','What do ARCP panels look for beyond minimum SLEs?'],
   'arcp-outcomes': ['What causes trainees to get an ARCP outcome 2 or 3?','What should my ePortfolio look like before ARCP?','Give me an ARCP preparation checklist'],
+  gim: ['Explain how dual CCT with GIM affects my ARCP','What extra Internal Medicine evidence do I need to log alongside cardiology SLEs?','How many acute takes and outpatient clinics do I need for IMS2 by CCT?'],
   sles: ['Explain the difference between mini-CEX, CBD, DOPS and ACAT','How do I write a good reflective CBD entry?','What makes a high-quality MSF response?'],
   eportfolio: ['How should I structure my ePortfolio time each week?','What do ARCP panels look for beyond the minimum SLEs?','How do I demonstrate progression in my ePortfolio?'],
   'gl-overview': ['Which ESC guidelines should I read first as an ST4?','What changed in the 2024 AF guidelines?','Summarise the most important 2025 ESC updates'],
@@ -581,8 +583,69 @@ st6plus: `
 
 <div class="card">
   <div class="card-title">The ARCP Decision Aid</div>
-  <p>The official <a href="https://www.thefederation.uk/sites/default/files/Cardiology%202022%20ARCP%20Decision%20Aid%20FINAL.pdf" target="_blank">Cardiology 2022 ARCP Decision Aid</a> specifies exact requirements for each year. Download it and use it as your personal checklist 3 months before your ARCP.</p>
+  <p>The official <a href="https://www.thefederation.uk/sites/default/files/uploads/Cardiology%202022%20curriculum%20updated%20July%202024_0.pdf" target="_blank">Cardiology 2022 ARCP Decision Aid</a> (updated July 2024) specifies exact requirements for each year. Download it and use it as your personal checklist 3 months before your ARCP.</p>
+  <div class="info-box blue"><span class="info-box-icon">ℹ️</span><div>Cardiology is a dual-CCT (Group 1) specialty, so this isn't the only decision aid that applies to you — see <strong>GIM / IMS2 Requirements</strong> in this section for the parallel Internal Medicine obligations assessed at the same ARCP.</div></div>
 </div>`,
+
+gim: `
+<div class="section-title">GIM / IMS2 Requirements</div>
+<div class="section-subtitle">Cardiology is a dual-CCT (Group 1) specialty. Every ARCP year you're assessed against a separate Internal Medicine Stage 2 (IMS2) decision aid, alongside your cardiology one.</div>
+
+<div class="info-box blue"><span class="info-box-icon">ℹ️</span><div><strong>Two outcomes, one ARCP:</strong> the GMC requires a training outcome for both cardiology and IMS2 at every ARCP in Group 1 specialties. It's one ePortfolio, not two — you just need to tag the right SLEs as IM evidence so they count for both.</div></div>
+
+<div class="card">
+  <div class="card-title">What's Genuinely Additional to Your Cardiology Requirements</div>
+  <div class="table-wrap"><table class="guide-table">
+    <tr><th>Evidence</th><th>Per year (while training in IM)</th><th>Cumulative by CCT</th></tr>
+    <tr><td>MCR (Multiple Consultant Report)</td><td>2</td><td>3 in final year of IM training</td></tr>
+    <tr><td>SLEs (CbD/mini-CEX) from IM consultants</td><td>3</td><td>3 in final year</td></tr>
+    <tr><td>ACAT (acute take assessment)</td><td>4, if training in CiP1 (≥5 cases each)</td><td>4 in final year</td></tr>
+    <tr><td>MSF raters from an IM context</td><td>≥4 of your total raters</td><td>—</td></tr>
+    <tr><td>Outpatient clinics (specialties other than cardiology)</td><td>record each year</td><td>≥20 by end IMS2</td></tr>
+    <tr><td>Acute unselected take — patients seen</td><td>record each year</td><td>≥750, incl. 100 in final year</td></tr>
+    <tr><td>Continuing ward care (blocks ≥4 weeks)</td><td>record months</td><td>12 months, incl. 3 in final year</td></tr>
+    <tr><td>Simulation training (human factors focus)</td><td>record hours</td><td>≥12 hrs, incl. 4 in final year</td></tr>
+    <tr><td>IM study leave</td><td>record hours</td><td>≥75 hrs, incl. 20 in final year</td></tr>
+    <tr><td>QI project</td><td>—</td><td>at least 1 during IMS2</td></tr>
+    <tr><td>Teaching observation</td><td>—</td><td>at least 1 by end IMS2</td></tr>
+    <tr><td>Patient survey</td><td>—</td><td>at least 1 by end IMS2</td></tr>
+    <tr><td>ALS certificate</td><td>keep valid</td><td>valid at CCT</td></tr>
+  </table></div>
+  <p class="text-sm text-muted">Source: JRCPTB/Federation IMS2 ARCP Decision Aid, 2022 curriculum (15 Sept 2021).</p>
+</div>
+
+<div class="card">
+  <div class="card-title">ST4 Entrustment Targets for the 8 IM Clinical CiPs</div>
+  <p>Self-rated and discussed with your ES, alongside your 5 cardiology CiPs. Levels: 1 = observe only, 2 = act with direct supervision, 3 = act with indirect supervision, 4 = act unsupervised.</p>
+  <div class="table-wrap"><table class="guide-table">
+    <tr><th>IM Clinical CiP</th><th>ST4 target</th></tr>
+    <tr><td>1. Managing an acute unselected take</td><td><span class="pill pill-amber">Level 3</span></td></tr>
+    <tr><td>2. Managing acute care within a medical specialty service</td><td><span class="pill pill-blue">Level 2</span></td></tr>
+    <tr><td>3. Providing continuity of care to medical inpatients</td><td><span class="pill pill-amber">Level 3</span></td></tr>
+    <tr><td>4. Managing outpatients with long-term conditions</td><td><span class="pill pill-amber">Level 3</span></td></tr>
+    <tr><td>5. Managing medical problems in patients under other specialties</td><td><span class="pill pill-amber">Level 3</span></td></tr>
+    <tr><td>6. Managing an MDT including discharge planning</td><td><span class="pill pill-amber">Level 3</span></td></tr>
+    <tr><td>7. Delivering effective resuscitation / deteriorating patient</td><td><span class="pill pill-green">Level 4</span></td></tr>
+    <tr><td>8. Managing end of life and applying palliative care skills</td><td><span class="pill pill-amber">Level 3</span></td></tr>
+  </table></div>
+</div>
+
+<div class="card">
+  <div class="card-title">Practical Procedures — Maintain, Don't Relearn</div>
+  <p>These should already be signed off from IMS1/foundation training. No further DOPS needed unless you or your ES feel it's warranted — just keep them current through practice.</p>
+  <ul>
+    <li>Advanced CPR — leadership of the resus team</li>
+    <li>Ascitic tap, DC cardioversion, lumbar puncture, NG tube, pleural aspiration — competent unsupervised</li>
+    <li>Abdominal paracentesis, central venous access, intercostal drain, temporary cardiac pacing — skills lab or supervised practice</li>
+  </ul>
+</div>
+
+<div class="next-action">
+  <div class="next-action-title">Practical takeaway</div>
+  <div class="next-action-text">Whenever you're on the acute medical take, in a non-cardiology outpatient clinic, or covering IM on-call, ask for the SLE to be explicitly tagged as IM evidence in your ePortfolio — it counts twice: once towards your cardiology CiPs, once towards IMS2.</div>
+</div>
+
+<div class="gl-source-bar"><strong>Official document:</strong> <a class="gl-link jrcptb" href="https://www.thefederation.uk/sites/default/files/IMS2%20ARCP%20Decision%20Aid%202022%20150921.pdf" target="_blank">GIM / IMS2 ARCP Decision Aid (2022 curriculum) ↗</a></div>`,
 
 sles: `
 <div class="section-title">SLE Requirements</div>
@@ -1445,6 +1508,7 @@ resources: `
   <div class="table-wrap"><table class="guide-table">
     <tr><th>Platform</th><th>Best For</th><th>Cost</th></tr>
     <tr><td><a href="https://bjca.tv" target="_blank">BJCA.tv</a></td><td>UK curriculum-aligned videos; essential for trainees</td><td>Free</td></tr>
+    <tr><td><a href="https://logbook.bjca.tv/" target="_blank">BJCA Logbook</a></td><td>Track procedures (echo, angiography, pacing) and cases against the curriculum in one place</td><td>Free (BJCA member)</td></tr>
     <tr><td><a href="https://www.escardio.org/Education/E-Learning/E-learning-courses" target="_blank">ESC 365 / ESC e-Learning</a></td><td>Guidelines in depth; congress lectures</td><td>Free (member)</td></tr>
     <tr><td><a href="https://litfl.com/ecg-library/" target="_blank">LITFL ECG Library</a></td><td>ECG interpretation — daily practice</td><td>Free</td></tr>
     <tr><td><a href="https://www.123sonography.com" target="_blank">123sonography</a></td><td>Echo learning — video-based, thorough</td><td>Subscription</td></tr>
